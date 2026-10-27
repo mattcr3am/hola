@@ -291,6 +291,7 @@ nav a:hover {
 }
 
 
+
 /* PIE DE PÁGINA */
 
 footer {
@@ -302,4 +303,76 @@ footer {
 
 footer p {
     margin: 5px;
+}
+
+
+/* PARA CELU*/
+
+@media (max-width: 600px) {
+
+    /* Inicio */
+    .Inicio {
+        padding: 40px 15px;
+    }
+
+    .Inicio span {
+        font-size: 30px;
+    }
+
+    .Inicio img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    .Inicio h2 {
+        font-size: 25px;
+    }
+
+    .Inicio p {
+        font-size: 16px;
+    }
+
+    /* Nosotros */
+    .nosotros-bloque {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .nosotros-bloque img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    .nosotros-bloque div {
+        width: 100%;
+    }
+
+    /* Productos */
+    .Producto {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /* Equipo */
+    .Persona {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /* Anabel */
+    .mascota-flotante {
+        width: 100px;
+        height: 100px;
+        bottom: -25px;
+        right: 5px;
+    }
+
+    /* Pie de página */
+    footer {
+        padding: 20px 10px;
+        overflow-wrap: anywhere;
+    }
 }
